@@ -1,0 +1,174 @@
+{
+    "Version": "1.0.0",
+    "Sections": [
+        {
+            "Name": "General",
+            "Description": "General mod settings.",
+            "IsAdvanced": false,
+            "Keys": [
+                {
+                    "Min": 10.0,
+                    "Max": 100.0,
+                    "Value": 10.0,
+                    "Name": "Corpse Detection Radius",
+                    "Description": "How far away (in world units) a Reanimate spell will search for a valid corpse.",
+                    "$version": "v1",
+                    "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.SliderFloatKey"
+                }
+            ],
+            "$version": "v1"
+        },
+        {
+            "Name": "Necromancy",
+            "Description": "Core necromancy behavior.",
+            "IsAdvanced": false,
+            "Keys": [
+                {
+                    "Value": false,
+                    "Name": "Limit to Human Corpses",
+                    "Description": "If enabled, Reanimate spells can only consume human/classed enemy corpses. Off by default.",
+                    "$version": "v1",
+                    "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.ToggleKey"
+                },
+                {
+                    "Value": false,
+                    "Name": "Protect Quest Corpses",
+                    "Description": "If enabled, Reanimate/Corpse Explosion/Deathknell will never consume a corpse tied to an active quest.",
+                    "$version": "v1",
+                    "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.ToggleKey"
+                },
+                {
+                    "Options": [
+                        "Default Behavior",
+                        "Always Reanimate Allied",
+                        "Always Reanimate Hostile"
+                    ],
+                    "Value": 0,
+                    "Name": "Reanimate Allegiance",
+                    "Description": "Default Behavior rolls the usual ally-vs-hostile chance. Always Reanimate Allied/Hostile skip that roll entirely and force every reanimation's allegiance.",
+                    "$version": "v1",
+                    "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.MultipleChoiceKey"
+                },
+                {
+                    "Value": false,
+                    "Name": "Allied Undead Ignore Each Other's Collision",
+                    "Description": "If enabled, your allied undead pass through each other like they pass through you. Off by default, so a legion physically jostles for space like any other pack of creatures.",
+                    "$version": "v1",
+                    "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.ToggleKey"
+                },
+                {
+                    "Value": false,
+                    "Name": "Permanent Undead Summons",
+                    "Description": "If enabled, reanimated creatures never expire from their duration running out - they only die in combat or are dismissed. Off by default.",
+                    "$version": "v1",
+                    "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.ToggleKey"
+                },
+                {
+                    "Value": false,
+                    "Name": "Raise Undead Without Corpse",
+                    "Description": "If enabled, Reanimate spells no longer require a nearby corpse - the creature rises a few paces in front of you instead. Off by default.",
+                    "$version": "v1",
+                    "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.ToggleKey"
+                },
+                {
+                    "Value": true,
+                    "Name": "Necromancy Legal In Towns",
+                    "Description": "If enabled, casting this mod's necromancy spells while in a town is never treated as a crime.",
+                    "$version": "v1",
+                    "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.ToggleKey"
+                },
+                {
+                    "Min": 1,
+                    "Max": 100,
+                    "Value": 10,
+                    "Name": "Seance Kill Requirement",
+                    "Description": "How many creatures you must slay since entering the current dungeon before Seance becomes castable there.",
+                    "$version": "v1",
+                    "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.SliderIntKey"
+                },
+                {
+                    "Value": false,
+                    "Name": "Ignore Seance Kill Requirement",
+                    "Description": "If enabled, Seance can be cast in any dungeon regardless of how many creatures you've slain there - the kill requirement above is skipped entirely.",
+                    "$version": "v1",
+                    "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.ToggleKey"
+                },
+                {
+                    "Min": 0.5,
+                    "Max": 3.0,
+                    "Value": 1.0,
+                    "Name": "Seance Ghost Speed Multiplier",
+                    "Description": "Multiplies the Seance ghost's movement speed. Higher values make it easier to keep up with; lower values make it linger longer at each step.",
+                    "$version": "v1",
+                    "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.SliderFloatKey"
+                },
+                {
+                    "Min": 3.0,
+                    "Max": 30.0,
+                    "Value": 8.0,
+                    "Name": "Seance Wait For Player Distance",
+                    "Description": "How far behind (in world units) the player can fall before the Seance ghost stops and waits.",
+                    "$version": "v1",
+                    "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.SliderFloatKey"
+                },
+                {
+                    "Min": 1.0,
+                    "Max": 15.0,
+                    "Value": 5.0,
+                    "Name": "Seance Resume Distance",
+                    "Description": "How close the player must get to a waiting Seance ghost before it resumes leading the way.",
+                    "$version": "v1",
+                    "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.SliderFloatKey"
+                }
+            ],
+            "$version": "v1"
+        },
+        {
+            "Name": "Sound",
+            "Description": "Custom undead idle/attack sounds.",
+            "IsAdvanced": false,
+            "Keys": [
+                {
+                    "Value": false,
+                    "Name": "Mute All Follower Noises",
+                    "Description": "Master mute for every setting below - if enabled, skeleton/zombie/ghost/wraith/vampire enemies play no idle or attack sounds at all, custom or vanilla, regardless of the other settings in this section.",
+                    "$version": "v1",
+                    "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.ToggleKey"
+                },
+                {
+                    "Value": true,
+                    "Name": "Enable Custom Undead Noises",
+                    "Description": "If enabled, skeleton, zombie, ghost/wraith, and vampire enemies periodically play custom idle ambient sounds, and skeleton/zombie attacks use their custom sound too. If disabled (and Mute All Follower Noises is off), all of these play their normal vanilla sounds instead.",
+                    "$version": "v1",
+                    "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.ToggleKey"
+                },
+                {
+                    "Value": false,
+                    "Name": "Funny Mode",
+                    "Description": "If enabled, adds a set of silly bonus clips to the skeleton/zombie idle rotation and a special vampire-only idle clip. Off by default.",
+                    "$version": "v1",
+                    "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.ToggleKey"
+                },
+                {
+                    "Min": 5,
+                    "Max": 300,
+                    "Value": 20,
+                    "Name": "Idle Sound Interval Min",
+                    "Description": "Minimum seconds between an undead enemy's idle ambient sounds. Applies to all idle sound pools (skeleton/zombie, ghost/wraith, vampire).",
+                    "$version": "v1",
+                    "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.SliderIntKey"
+                },
+                {
+                    "Min": 5,
+                    "Max": 300,
+                    "Value": 50,
+                    "Name": "Idle Sound Interval Max",
+                    "Description": "Maximum seconds between an undead enemy's idle ambient sounds. Applies to all idle sound pools (skeleton/zombie, ghost/wraith, vampire).",
+                    "$version": "v1",
+                    "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.SliderIntKey"
+                }
+            ],
+            "$version": "v1"
+        }
+    ]
+}

@@ -1,0 +1,93 @@
+Title: Astrid's Guide to Necromancy
+Author: Astrid
+IsNaughty: False
+Price: 100
+IsUnique: True
+WhenVarSet:
+Content:
+[/center]Astrid's Guide to Necromancy[/left]
+
+So. You are the one the King sent.
+
+I am Astrid, sole apprentice to the Worm King Mannimarco — no matter what he claims to the contrary — and I have written this guide for you. We have never met, and given the nature of your assignment, I suspect we never will. Still, I have a personal interest in your mission's success, and you are clearly not capable of unearthing the secrets of the dead on your own. So I arranged for this book to find you. What you do with it now is your own affair.
+
+Read it carefully. Then read it again, and again. I have layered my knowledge so it deepens as you do — a precaution, since your first Wraith will likely devour your soul otherwise. Check back often. I would hate to add you to my collection of minions.
+
+[/center]Reanimation[/left]
+
+The Reanimation spell is the foundation of everything else I will teach you. Acquire a corpse, pull at the threads of creation, and create a puppet for your strings. I cannot guarantee the obedience of the dead, but as power grows, so will your ability to subjugate them.
+
+Try to raise something beyond your ability, and the dead will simply ignore you, which I assure you is a better outcome than when you succeed and it does not obey.
+
+Whatever you raise will follow you, fight at your command, and endure for a time before it falls apart. The stronger you are, the longer they will last and the more damage they will deal to your enemies.
+
+You may sustain only so many servants at once. Renanimate one too many and the eldest of your legion simply gives out to make room.
+
+[/center]Reanimation Spells by Level:[/left]
+
+Level 1: Skeletal Warriors.
+
+Level 2: Zombies.
+
+Level 3: Ghosts.
+
+Level 5: Mummies.
+
+Level 7: Wraiths.
+
+Level 9: Vampires.
+
+Level 12: Ancient Vampires.
+
+Level 13: Liches.
+
+Level 16: Ancient Liches.
+
+[/center]Daggerfall Enemy Expansion Reanimation Spells by Level[/left]
+
+Level 1: Skeletal Soldiers.
+
+Level 6: Ghouls and Faded Ghosts.
+
+Level 7: Dire Ghouls.
+
+Level 15: Gloom Wraiths.
+
+[/center]Corpse Explosion[/left]
+
+This spell consumes a corpse to deal fire damage based on the maximum health pool of the creature you detonated. The bigger the monster, the bigger the explosion. You and your undead minions are not affected by this blast, so spam till your heart is content.
+
+[/center]Volatile Undead[/left]
+
+A servant is often more useful once sacrificed. Detonate one of your underperforming creations, and it will deal damage to those around it equal to whatever health it had remaining. 
+
+[/center]Deathknell[/left]
+
+Waste not. This spell consumes corpses to restore your health and fatigue based on 1/2 the creature’s health pool.
+
+[/center]Seance[/left]
+When you are lost in the depths of some tomb, you can call upon those you have slain to show you the way. After you have killed at least 10 creatures in an area, you gain the ability to summon one of their spirits to guide you to your current goal.  
+
+[/center]Subjugate Undead[/left]
+
+When you inevitably raise something you can’t handle, this spell will be your lifeline. It grants you a chance to bend the dead back to your will. It also works on undead raised by other practitioners: useful when you are cleaning up someone else’s mess.
+
+[/center]Dismiss Undead[/left]
+
+When you are done with your playthings, this spell will dispose of them for you. 
+
+[/center]Command Undead[/left]
+
+Having a undead horde is pointless if they are not there when you need them. This spell instantly brings your legion to your side to engage your foes. 
+
+[/center]Dark Deal[/left]
+
+This spell allows you to trade your own lifeforce for power: a tenth of your health, for a fifth of your magicka. Be warned: when the deal is struck, be sure you can pay unless you wish to join the dead.
+
+[/center]A Word of Advice[/left]
+
+Mannimarco did not become the King of Worms by casting the same three spells for a hundred years. Neither will you. Every time you feel yourself grow stronger, come back to these pages. Remember, study is not optional. It is the entire craft.
+
+Do try not to die. It would reflect poorly on my teaching.
+
+- Astrid the Witch
